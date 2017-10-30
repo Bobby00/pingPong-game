@@ -3,11 +3,11 @@ A pingpong Web app that displays 'ping' if the number is divisible by 3, 'pong' 
 It involves EDD and javascript if statements
 
 # Description
-
-It can count up to the provided number.
-It can change numbers divisible by 3 to 'PING'.
-Example Input: 3
-Example Output: [1,2,PING]
+<br>
+It can count up to the provided number.<br>
+It can change numbers divisible by 3 to 'PING'.<br>
+Example Input: 3<br>
+Example Output: [1,2,PING]<br>
 
 Example Input: 8
 Example Output: [1,2,PING,4,PONG,PING,7,8]
