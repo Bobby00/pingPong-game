@@ -9,13 +9,13 @@ It can change numbers divisible by 3 to 'PING'.<br>
 Example Input: 3<br>
 Example Output: [1,2,PING]<br>
 
-# Example Input: 8<br>
+<h4> Example Input: 8</h4><br>
 Example Output: [1,2,PING,4,PONG,PING,7,8]<br>
 It can change numbers divisible by 5 to 'pong'.<br>
 
-# Example Input: 5<br>
+<h4>Example Input: 5</h4><br>
 Example Output: [1,2,3,4,pong]<br>
 It can change numbers divisible by 3 and 5 to 'pingpong'.<br>
 
-# Example Input: 15<br>
+<h4>Example Input: 15</h4><br>
 Example Output: [1,2,PING,4,PONG,PING,7,8,PING,PONG,11,PING,13,14,PINGPONG]<br>
