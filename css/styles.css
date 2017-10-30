@@ -24,16 +24,14 @@ hr {
 
 .jumbotron {
     background-color: rgb(0,255,0);opacity:0.7;
+    outline-color: orange;
     width: 100%;
 
 }
 
 /*Combined Styles for the About, Rules, Form and Result Sections*/
 
-.aboutSection,
-.rulesSection,
-.formSection,
-.resultsSection {
+.aboutSection, .rulesSection, .formSection, .resultsSection {
     background-color: rgb(255,0,0);opacity:0.8;
     border: 2px solid #ddd;
     z-index: 2;
