@@ -32,7 +32,7 @@ hr {
 /*Combined Styles for the About, Rules, Form and Result Sections*/
 
 .aboutSection,.rulesSection, .formSection, .resultsSection {
-    background-color: rgb(255,0,0);opacity:0.8;
+    background-color: rgb(255,0,0);opacity:0.9;
     border: 2px solid #ddd;
     z-index: 2;
     border-radius: 4px;

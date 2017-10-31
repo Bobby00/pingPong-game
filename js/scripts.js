@@ -2,17 +2,17 @@
 //A function to count up the inputted number while changing the multiples of 3, 5 and 15 to ping, pong and pingpong respectively.
 function countUp(input) {
     var total = [];
-    for (var index = 1; index <= input; index++) {
+    for (var first = 1; first <= input; first++) {
         //test
-        //console.log(index)
-        if (index % 3 === 0 && index % 5 === 0) {
+        //console.log(first)
+        if (first % 15 === 0) {
             total.push("PINGPONG");
-        } else if (index % 5 === 0) {
+        } else if (first % 5 === 0) {
             total.push("PONG");
-        } else if (index % 3 === 0) {
+        } else if (first % 3 === 0) {
             total.push("PING");
         } else {
-            total.push(index);
+            total.push(first);
         }
     };
     return total;
@@ -33,8 +33,8 @@ $(document).ready(function () {
         //Call the function countUp to work on the new variable inputtedNumber inside a new variable
         var countedNumbers = countUp(inputtedNumber);
         //Print out the processed numbers in list form.
-        for (var index = 0; index <= countedNumbers.length - 1; index++) {
-            $("ul#output").append("<li>" + countedNumbers[index] + "</li>");
+        for (var first = 0; first <= countedNumbers.length - 1; first++) {
+            $("ul#output").append("<li>" + countedNumbers[first] + "</li>");
         };
         //Clear the previously filled input by calling the function clearForm to empty out the input field
         clearForm("input");
